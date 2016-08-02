@@ -1,0 +1,238 @@
+#headerWrapper{
+	background: #f9f9f9;
+	/*height: 108px;*/
+	padding-bottom: 20px;
+}
+
+#headerWrapper .navbar-default{
+	margin-bottom: 0px;
+	border: none;
+}
+
+#headerWrapper .navbar .navbar-header{
+  padding-top: 10px;
+} 
+
+#headerWrapper .navbar .menuItems ul{
+  padding-top: 35px;
+} 
+
+#headerWrapper .navbar .menuItems ul li a {     
+  color: #1c1c1c;
+  font-family: "Karla-Regular" ,sans-serif;
+} 
+
+#sliderWrapper{
+	background: #9fc63f;
+	padding-top: 35px;
+	position: relative;
+}
+
+#sliderWrapper .homeSlider .sliderContent .sliderDescription p{
+	padding-top: 55px;
+	font-family: "Myriad Pro" ,sans-serif;
+	font-size: 30px;
+	color: #ffffff;
+}
+
+#sliderWrapper .homeSlider .sliderContent {
+	position: relative;
+}
+#sliderWrapper .homeSlider .sliderDescription{
+	position: absolute;
+    left: 60%;
+}
+
+#sliderWrapper a.backword {
+	position: absolute;
+        top: 45%;
+            left: 5%;
+}
+
+#sliderWrapper a.forward {
+	position: absolute;
+    right: 5%;
+        top: 45%;
+}
+
+#sliderWrapper .slider-image img{
+  width: 100%;
+}
+#supportWrapper h1,#supportWrapper h2,#portfolioWrapper h2,#portfolioWrapper h4 {
+	font-family: "Armata-Regular" ,sans-serif;
+	
+}
+#supportWrapper h1{
+	font-size: 32px;   
+	margin-left: 36px; 
+}
+#supportWrapper hr{
+	border-top: dotted 1px;
+}
+#supportWrapper .infoText{
+	text-align: center;
+}
+#supportWrapper .infoText h4{
+	text-align: center;
+	font-family: "Karla-Regular",sans-serif;
+}
+#supportWrapper {
+	padding-top: 15px;
+	background: #fafafa;
+}
+span.elegantaText{
+	color: #90b742;
+}
+#supportWrapper .elegantaContent {
+	padding-top: 20px;
+}
+/*  portfolio wrapper */
+#portfolioWrapper{
+	padding-top: 30px;
+	background: #fafafa;
+
+}
+
+#portfolioWrapper .allPortFolios{
+  margin-top: 40px;
+}
+#portfolioWrapper h2{
+  margin-left: 36px;
+  /*font-family: Armata-Regular;*/
+  font-size: 25px;
+}
+#portfolioWrapper .allPortFolios .portfolioContent .businessText h4{
+	font-size: 16px;
+}
+
+#portfolioWrapper .portfolioContent {
+    padding-bottom: 18px;
+}
+#portfolioWrapper .portfolioContent .businessText .btn-primary{
+	border-radius: 0px;
+    background: #8eb63e;
+    border-color: #8eb63e;
+}
+#portfolioWrapper .portfolioContent .businessText p{
+	font-family: "Myriad Pro" ,sans-serif;
+	font-size: 13px;
+	margin-top: 15px;
+}
+
+
+/* ============ advertisersWrapper =====*/
+#advertisersWrapper{
+  padding-top: 40px;
+  background: #fafafa;
+}
+
+
+#advertisersWrapper h2 { 
+  font-family: "Myriad Pro" ,sans-serif;
+  font-size: 25px;
+  margin-left: 36px;
+}
+#advertisersWrapper ul li { 
+  display: inline-block;
+  float: left;
+}
+
+#advertisersWrapper h2 { 
+  margin-bottom: 36px;
+}
+
+/*==========  aboutusWrapper =======*/
+
+#aboutusWrapper{
+  padding-top: 110px;
+  background: #fafafa;
+}
+
+#aboutusWrapper h4{
+  font-family: "Armata-Regular" ,sans-serif;
+  margin-bottom: 30px;
+}
+
+#aboutusWrapper p{
+  font-family: "Myriad Pro" ,sans-serif;
+  font-size: 13px;
+}
+
+#aboutusWrapper h3{
+  font-family: "Armata-Regular" ,sans-serif;
+  font-size: 18px;
+}
+
+#aboutusWrapper .facebookIcon {
+	background: url('../images/sprite.png') no-repeat -42px -45px;
+	width: 11px;
+	height: 20px;
+}
+
+#aboutusWrapper ul.archived li{
+	border-bottom: 1px dotted #acaba9;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#aboutusWrapper ul.archived li a,#aboutusWrapper ul.contacts li a{
+	font-family: "Karla-Regular",sans-serif;
+	font-size: 13px;
+	color: #565658;
+}
+
+#aboutusWrapper ul.contacts li{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#aboutusWrapper .newsletterForm input{
+	margin-left: 10px;
+	width: 90%;
+	border: 0px;
+	border-radius: 0px;
+	background: #fafafa;
+	font-style: italic;
+}
+
+#aboutusWrapper .newsletterForm .btn-lg {
+	border-radius: 0px;
+    background: #8eb63e;
+    border-color: #8eb63e;
+    color: #ffffff;
+}
+
+ul.archived li:first-child,ul.contacts li:first-child{
+	padding-top: 0px !important;
+}
+
+/*===footerWrapper===*/
+
+#footerWrapper {
+  margin-top: 40px;
+  background: #202020;
+}
+
+#footerWrapper .footerMenu ul li{
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+
+}
+
+#footerWrapper .footerMenu ul, #footerWrapper  p{
+    margin-top: 5px;
+
+}
+
+#footerWrapper .footerMenu ul li a{
+    font-family: "Karla-Regular",sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+    
+}
+
+#footerWrapper  p{
+	font-size: 12px;
+	color: #ffffff;
+}

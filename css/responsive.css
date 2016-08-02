@@ -1,0 +1,95 @@
+/* Large Devices, Wide Screens */
+@media  screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media  screen and (max-width : 992px) {
+	#sliderWrapper .sliderDescription{
+            position: static !important;
+            clear: both;
+	}
+	#supportWrapper .elegantaContent .col-xs-12{
+   	    text-align: center;
+   }
+  
+}
+
+/* Small Devices, Tablets */
+@media  screen and (max-width : 768px) {
+	#sliderWrapper .sliderDescription{
+            position: static !important;
+            clear: both;
+	}
+	#supportWrapper .col-xs-12{
+		text-align: center;
+	}
+	 #sliderWrapper .sliderDescription, #advertisersWrapper h2,#portfolioWrapper h2 ,#supportWrapper h1{
+   	    text-align: center;
+   }
+   #portfolioWrapper .col-md-6{
+         text-align: center;
+	}
+
+	 #aboutusWrapper .col-xs-12 {
+   	text-align: center;
+   	margin-bottom: 35px;
+   }
+   #headerWrapper {
+  
+      padding-bottom: 35px !important;
+   }
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media  screen and (max-width : 480px) {
+
+	#portfolioWrapper .businessImage{
+		float: none;
+
+	}
+
+	#supportWrapper .col-xs-12{
+		text-align: center;
+	}
+
+	#portfolioWrapper .col-md-6{
+         text-align: center;
+	}
+
+	#headerWrapper {
+  
+      padding-bottom: 35px !important;
+   }
+
+   #sliderWrapper .sliderDescription, #advertisersWrapper h2,#portfolioWrapper h2,,#supportWrapper h1{
+   	    text-align: center;
+   }
+
+   #supportWrapper .elegantaContent .col-xs-12{
+   	    margin-bottom: 25px;
+   }
+
+   #aboutusWrapper .col-xs-12 {
+   	text-align: center;
+   	margin-bottom: 35px;
+   }
+
+   #footerWrapper .copyright{
+      float: left !important;
+   }
+   #advertisersWrapper ul li {
+   	float: none;
+   }
+
+   #advertisersWrapper ul{
+   	    text-align: center;
+   }
+
+}
+
+/* Custom, iPhone Retina */ 
+@media  screen and (max-width : 320px) {
+
+}
