@@ -47,6 +47,35 @@
           float: none;
    }
 
+   #sliderWrapper .homeSlider .sliderContent .sliderDescription p {
+    font-size: 15px;
+   }
+
+   #sliderWrapper a.forward, #sliderWrapper a.backword {
+    top: 65%;
+  }
+
+  #supportWrapper h1 {
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+#supportWrapper .col-xs-12 h2 {
+    font-size: 20px;
+}
+
+#portfolioWrapper h2 {
+   margin-left: 0px; 
+    /* font-family: Armata-Regular; */
+    font-size: 18px;
+}
+
+}
+#advertisersWrapper h2 {
+    font-size: 15px;
+    margin-left: 0px;
+}
+
 }
 
 /* Extra Small Devices, Phones */ 

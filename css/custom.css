@@ -36,7 +36,7 @@
 }
 
 #sliderWrapper .homeSlider .sliderContent {
-	position: relative;
+	/*position: relative;*/
 }
 #sliderWrapper .homeSlider .sliderDescription{
 	position: absolute;
